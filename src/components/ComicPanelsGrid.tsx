@@ -4,13 +4,11 @@ import { AppContext } from "../state/context";
 import PanelItem from "./PanelItem";
 
 interface IComicPanelsGridProps {
-  ComicPanelsGridRef: React.RefObject<HTMLDivElement>;
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
   setPanelNumber: React.Dispatch<React.SetStateAction<number>>;
 }
 
 export default function ComicPanelsGrid({
-  ComicPanelsGridRef,
   setOpen,
   setPanelNumber,
 }: IComicPanelsGridProps) {
@@ -19,7 +17,6 @@ export default function ComicPanelsGrid({
   const layout = [3.9, 4.3, 3.8, 4.8, 7.2, 7.3, 4.7, 4.1, 3.8, 4.1]
   return (
     <Box
-      ref={ComicPanelsGridRef}
       sx={{
         background: "white",
         border: "1px solid black",
