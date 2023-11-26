@@ -3,6 +3,7 @@ import AspectRatio from "@mui/joy/AspectRatio";
 import Box from "@mui/joy/Box";
 import Container from "@mui/joy/Container";
 import { typographyClasses } from "@mui/joy/Typography";
+import logo from '../Assets/images/logo.png'
 
 export default function HomePageLayout({
 	children,
@@ -44,7 +45,7 @@ export default function HomePageLayout({
 				})}
 			>
 				<img
-					src="https://i.imgur.com/UPasaaL.png"
+					src={logo}
 					alt=""
 				/>
 			</AspectRatio>
