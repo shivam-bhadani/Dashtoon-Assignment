@@ -4,7 +4,7 @@ import Button from "@mui/joy/Button";
 import HomePageLayout from "../components/HomePageLayout";
 import { Link } from "react-router-dom";
 
-const Home = () => {
+export default function Home() {
 	return (
 		<Box
 			sx={{
@@ -46,5 +46,3 @@ const Home = () => {
 		</Box>
 	)
 }
-
-export default Home
