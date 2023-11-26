@@ -1,7 +1,7 @@
 import { Box, Container } from "@mui/joy";
 import ComicPanelsGrid from "../components/ComicPanelsGrid";
 import DialogBox from "../components/DialogBox";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useState } from "react";
 

@@ -45,7 +45,7 @@ export default function HomePageLayout({
 			>
 				<img
 					src="https://i.imgur.com/UPasaaL.png"
-					alt="Description of the image"
+					alt=""
 				/>
 			</AspectRatio>
 			<Box

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Box, Grid, Sheet } from "@mui/joy";
+import { Box, Grid } from "@mui/joy";
 import { AppContext } from "../state/context";
 import PanelItem from "./PanelItem";
 

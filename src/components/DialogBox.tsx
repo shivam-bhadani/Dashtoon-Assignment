@@ -24,7 +24,6 @@ export default function DialogBox({
 }: IDialogBoxProps) {
   const { comicData, setComicData } = useContext(AppContext);
   const [apiCallStatus, setApiCallStatus] = useState<string | null>(null);
-  const [png, setPng] = useState();
 
   const generateImageHandler = async (query: string) => {
     setApiCallStatus("loading");
@@ -160,7 +159,6 @@ export default function DialogBox({
             </Stack>
           </form>
         </Stack>
-        <img src={png} alt="" />
       </ModalDialog>
     </Modal>
   );
