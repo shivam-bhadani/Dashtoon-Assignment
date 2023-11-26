@@ -3,7 +3,7 @@ import AspectRatio from "@mui/joy/AspectRatio";
 import Box from "@mui/joy/Box";
 import Container from "@mui/joy/Container";
 import { typographyClasses } from "@mui/joy/Typography";
-import logo from '../Assets/images/logo.png'
+import logo from "../Assets/images/logo.jpg"
 
 export default function HomePageLayout({
 	children,
