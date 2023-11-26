@@ -156,7 +156,7 @@ export default function DialogBox({
                   required
                 />
               </FormControl>
-              <Button type="submit">Add</Button>
+              <Button type="submit" color="success">Add Speech</Button>
             </Stack>
           </form>
         </Stack>
