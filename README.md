@@ -1,6 +1,6 @@
 # Dashtoon Assignment
 
-### Deploy Link: https://shivambhadani.netlify.app/
+### Deploy Link: [https://shivam-dashtoon-assignment.netlify.app/](https://shivam-dashtoon-assignment.netlify.app/)
 
 ## Installation
 
